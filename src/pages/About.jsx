@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+// import Navbar from '../components/Navbar'
+// import Footer from '../components/Footer'
 import  './../styles/About.css'
 
 export default function About() {
   return (
      <>
       
-       <Navbar />
+       {/* <Navbar /> */}
        
        {/* Hero section  */}
     <section className="expertise-hero">
@@ -137,7 +137,7 @@ lifelong learning and professional growth.
 
 
 
-       <Footer/>
+       {/* <Footer/> */}
      
     </>
   )
