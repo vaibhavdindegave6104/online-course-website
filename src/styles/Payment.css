@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f7f8fc;
+    color:#333;
+}
+
+
+/* hero */
+
+
+.payment-hero{
+    width: 100%;
+    min-height: 60vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(rgba(16,27,67,.75),rgba(16,27,67,.75)) url();
+    background-size:cover;
+    background-position: center;
+    padding:80px 20px;
+    margin-top: 90px;
+    
+}
+
+.hero-content{
+    max-width:700px;
+}
+
+.hero-content h1{
+   
+    font-size:48px;
+    line-height:75px;
+    color: blue;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    color: blue;
+    font-size:18px;
+    line-height:1.8;
+
+}
+
+.hero-btn{
+    margin-top: 30px;
+    padding: 14px 35px;
+    border: none;
+    border-radius: 30px;
+    background: #4f8cff;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+
+.hero-btn:hover{
+    background: #376de0;
+    transform: translateY((-4px));
+}
+
+
+
+/* common sound */
+
+
+.section-title{
+    text-align: center;
+    font-size: 32px;
+    color: #1b2d5a;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.course-summary,
+.payment-section,
+.security-section,
+.payment-step,
+.faq-section{
+    padding: 80px 8%;
+}
+
+
+/* course summary */
+
+.summary-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+
+}
+
+.course-card{
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 8px 5px rgba(0,0,0,.08);
+}
+
+
+.course-card img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.course-details{
+    padding: 30px;
+}
+
+.course-details h3{
+    color: #20386f;
+    font-size: 28px;
+    margin-bottom: 15px;
+
+}
+
+
+.course-details p{
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+
+}
+
+.course-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.info-box{
+    background: #eef3ff;
+    padding: 0px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.info-box h4{
+    color: #21449d;
+    font-weight: 600;
+
+}
+
+
+/* price card */
+
+.price-card{
+    background: #fff;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 5px rgba(0,0,0,.08);
+    height: fit-content;
+    position: sticky;
+    top: 30px;
+}
+
+.price-card h{
+    text-align: center;
+    color: #21449d;
+    margin-bottom: 30px;
+}
+
+
+.price-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0;
+    font-size: 17px;
+}
+
+
+.total-price{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #20386f;
+}
+
+.pay-btn{
+    width: 100%;
+    margin-top: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #4f8cff;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.pay-btn:hover{
+    background: #376de0;
+}
+
+
+/* payment section */
+
+.payment-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: stretch;
+
+}
+
+.payment-form{
+    background: #fff;
+    padding: 35px;
+    border-radius: 18px;
+    box-shadow: 0 8px5px rgba(0,0,0,.08);
+
+}
+
+.payment-form h3{
+    color-scheme: #20386f;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.payment-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.payment-form input{
+    width: 100%;
+    padding: 15px 18px;
+    border: 1px solid #d6def5;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: .3s;
+}
+
+.payment-form input:focus{
+    border-color: #4f8cff;
+    box-shadow: 0 0 8px rgba(79,140,255,.25);
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+
+.payment-form button{
+    margin-top: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #4f8cff;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+
+.payment-form button:hover{
+    background: #376de0;
+    transform: translateY(-2px);
+}
+
+
+/* payment method */
+
+
+.payment-option{
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+
+}
+
+.payment-option h3{
+    color: #20386f;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.method-card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: #f7f9ff;
+    padding: 18px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    transition: .3s;
+    cursor: pointer;
+    border: 1px solid transparent; 
+    font-size: 22px;
+
+}
+
+.method-card:hover{
+    transform: translateY(-3px);
+    border-color: #4f8cff;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+}
+
+.method-card:first-child(2){
+    border-left: 5px solid #2f6ad8;
+}
+
+.method-card:nth-child(3){
+    border-left: 5px solid #22c55e;
+}
+.method-card:nth-child(4){
+    border-left: 5px solid #ff9800;
+}
+.method-card:nth-child(5){
+    border-left: 5px solid #9c27b0;
+}
+
+
+.method-card h4{
+    color: #20386f;
+    margin-bottom: 4px;
+    font-size: 17px;
+}
+
+
+.method-card p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.method-card{
+    font-size: 28px;
+}
+
+
+
+
+  /*RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.summary-container,
+.payment-container,
+.security-cards,
+.steps-container{
+
+grid-template-columns:1fr;
+
+}
+
+.course-info{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.hero-content h1{
+
+font-size:40px;
+
+}
+
+.section-title{
+
+font-size:30px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.payment-hero{
+
+padding:60px 20px;
+
+}
+
+.hero-content h1{
+
+font-size:32px;
+
+}
+
+.hero-content p{
+
+font-size:16px;
+
+}
+
+.course-info{
+
+grid-template-columns:1fr;
+
+}
+
+.row{
+
+grid-template-columns:1fr;
+
+}
+
+.payment-form,
+.payment-options,
+.course-card,
+.price-card{
+
+padding:20px;
+
+}
+
+.course-card img{
+
+height:220px;
+
+}
+
+.section-title{
+
+font-size:28px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.hero-content h1{
+
+font-size:28px;
+
+}
+
+.hero-btn,
+.pay-btn,
+.payment-form button{
+
+width:100%;
+
+}
+
+.course-summary,
+.payment-section,
+.security-section,
+.payment-steps,
+.faq-section{
+
+padding:60px 20px;
+
+}
+
+}
