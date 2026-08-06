@@ -75,21 +75,21 @@ export default function Home() {
     
 
 
-    <section class="why-us">
-        <div class="container">
+    <section className="why-us">
+        <div className="container">
             <h2>Why Choose Coursify?</h2>
-            <div class="why-grid">
-                <div class="why-card">
+            <div className="why-grid">
+                <div className="why-card">
                    
                     <h3>👨‍🏫Expert Instructors</h3>
                     <p>Learn from industry professionals with years of real-world experience.</p>
                 </div>
-                <div class="why-card">
+                <div className="why-card">
                    
                     <h3>🎥Interactive Video lessons</h3>
                     <p>Access engaging HD video lectures and practical demonstrations anytime</p>
                 </div>
-                <div class="why-card">
+                <div className="why-card">
                     
                     <h3>💼Placement Support</h3>
                     <p>Assisting students in finding employment opportunities after course completion.</p>
@@ -102,26 +102,26 @@ export default function Home() {
 
 
 
-    <section class="stats">
+    <section className="stats">
 
-        <div class="container">
+        <div className="container">
             <h2>Our Achievements</h2>
            
-           <div class="stats-grid">
-                <div class="stat-card">
-                    <h3 class="counter" data-target="250">10k+</h3>
+           <div className="stats-grid">
+                <div className="stat-card">
+                    <h3 className="counter" data-target="250">10k+</h3>
                     <p>Students Trained</p>
                 </div>
-                <div class="stat-card">
-                    <h3 class="counter" data-target="250">50+</h3>
+                <div className="stat-card">
+                    <h3 className="counter" data-target="250">50+</h3>
                     <p>Professional Courses</p>
                 </div>
-                <div class="stat-card">
-                    <h3 class="counter" data-target="250">100+</h3>
+                <div className="stat-card">
+                    <h3 className="counter" data-target="250">100+</h3>
                     <p>Industry Mentors</p>
                 </div>
-                <div class="stat-card">
-                    <h3 class="counter" data-target="250">95%</h3>
+                <div className="stat-card">
+                    <h3 className="counter" data-target="250">95%</h3>
                     <p>Placement Assistance Success</p>
                 </div>
             </div>
@@ -133,14 +133,14 @@ export default function Home() {
 
 
     
-    <section class="about-cta">
-        <div class="container">
+    <section className="about-cta">
+        <div className="container">
             <h2>Begin Your Learning Journey Today</h2>
             <p>
                 Transform your career with our expert-led training programs.
                 Join thousands of satisfied students who have advanced their skills and boosted their prospects.
             </p>
-            <a href="form.html" class="cta-btn">Join Now</a>
+            <a href="form.html" className="cta-btn">Join Now</a>
         </div>
     </section>
 
