@@ -5,7 +5,7 @@ function Contact() {
     <>
     <div className="contact-page">
 
-      {/* Hero Section */}
+
 
       <section className="contact-hero">
 
@@ -27,7 +27,7 @@ function Contact() {
 
 
 
-      {/* Contact Information */}
+     
 
       <section className="contact-info">
 
@@ -118,7 +118,7 @@ function Contact() {
 
         <div className="contact-form-container">
 
-          {/* Form */}
+         
 
           <div className="contact-form">
 
@@ -170,7 +170,7 @@ function Contact() {
 
 
 
-          {/* Office Details */}
+         
 
           <div className="office-details">
 
