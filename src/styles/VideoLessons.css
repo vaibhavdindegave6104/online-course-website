@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial ,sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1563518839049-f44a5e423f12?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGlnaHQlMjBibHVlJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+.videos{
+    padding: 80px 20px;
+    margin-top: 90px;
+    
+
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.videos h1{
+    color:  rgb(49, 48, 133);
+    text-align: center;
+    font-size: 40px;
+}
+
+.subtitle{
+    text-align: center;
+    max-width: 750px;
+    margin: 20px auto 50px;
+    color: #f3f1f1;
+    line-height: 1.7;
+}
+
+.video-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    
+}
+
+
+
+.video-card{
+    width: 350px;
+    background:white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    transition: 0.3s;
+}
+
+.video-card:hover{
+    transform: translate(-9px);
+    box-shadow: #89abdf;
+}
+
+.video-card iframe{
+    width: 100%;
+    height: 220px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.video-card h3{
+    margin-top: 15px;
+}
+
+
+.video-card p{
+
+    color: #666;
+}
+
+.features {
+    margin-top: 70px;
+}
+
+.features h2{
+    text-align: center;
+    color: rgb(49, 48, 133);
+    margin-bottom: 35px;
+}
+
+
+.feature-box{
+
+    background:white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.feature-box:hover{
+    transform: translate(-10px);
+
+}
+
+.feature-box h3 span{
+    color: red;
+}
+
+.feature-box p{
+    margin-top: 15px;
+}
+
+@media(max-width:768px){
+
+    .videos h1{
+        font-size: 30px;
+
+
+    }
+
+    .video-card{
+        width: 100%;
+    }
+
+    .video-card iframe{
+        height: 200px;
+    }
+}
+
+@media(max-width:480px){
+
+    .video-grid{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video-card{
+        width: 90%;
+    }
+
+    .video-card iframe{
+        width: 100%;
+        height: 200px;
+    }
+
+      .features{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .features div{
+        width: 90%;
+    }
+
+}
