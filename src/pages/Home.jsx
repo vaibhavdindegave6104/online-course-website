@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components//Footer'
+// import Navbar from '../components/Navbar'
+// import Footer from '../components//Footer'
 import  './../styles/Home.css'
 
 export default function Home() {
   return (
     <>
-      <Navbar />
+      
 
 
       {/* Hero section  */}
@@ -147,7 +147,7 @@ export default function Home() {
 
       
 
-      <Footer/>
+      
     </>
   )
 }
