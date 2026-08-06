@@ -1,6 +1,6 @@
 import React from 'react'
-// import Navbar from '../components/Navbar'
-// import Footer from '../components//Footer'
+
+
 import  './../styles/Home.css'
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
       
 
 
-      {/* Hero section  */}
+    
     <section className="home-hero">
         <div className="container">
             <h1>Learn Without limits</h1>
@@ -22,7 +22,7 @@ export default function Home() {
 
 
 
-    {/* courses */}
+  
 
     <section className="latest-blogs" id="latest-blogs">
         <div className="container">
@@ -73,7 +73,7 @@ export default function Home() {
 
 
     
-      {/* Why choose us   */}
+
 
     <section class="why-us">
         <div class="container">
@@ -100,7 +100,7 @@ export default function Home() {
     </section>
 
 
-{/* stats section  */}
+
 
     <section class="stats">
 
@@ -132,7 +132,7 @@ export default function Home() {
 
 
 
-     {/* Call to action section   */}
+    
     <section class="about-cta">
         <div class="container">
             <h2>Begin Your Learning Journey Today</h2>
