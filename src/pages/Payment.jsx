@@ -3,7 +3,7 @@ import "./../styles/payment.css";
 function Payment(){
     return(
         <div className="payment-page">
-            {/* hero section */}
+           
             <section className="payment-hero">
                 <div className="hero-content">
                 <h1>Secure Course Payment</h1>
@@ -18,7 +18,7 @@ function Payment(){
 
 
 
-            {/* course summary */}
+          
             <section className="course-summary">
             <h2 className="course-title">
                 Course Summary
@@ -84,7 +84,7 @@ function Payment(){
 
 
 
-            {/* payment section */}
+          
 
             <section className="payment-section">
                 <h2 className="section-tilte">
@@ -92,7 +92,7 @@ function Payment(){
                 </h2>
                 <div className="payment-container">
 
-                    {/* payment form */}
+                  
 
                     <div className="payment-form">
                         <h3>Secure Payment</h3>
@@ -112,7 +112,7 @@ function Payment(){
                         </form>
                     </div>
 
-                    {/* payment option */}
+                
 
                     <div className="payment-option">
                         <h3>Available Payment Methods</h3>
