@@ -5,7 +5,7 @@ function Navbar() {
 
     return (
 
-        // header
+
 
         <section className="header">
 
